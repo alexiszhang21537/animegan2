@@ -29,7 +29,7 @@ def inference(img, ver):
 title = "AnimeGANv2"
 description = "Gradio Demo for AnimeGanv2 Face Portrait. To use it, simply upload your image, or click one of the examples to load them. Read more at the links below. Please use a cropped portrait picture for best results similar to the examples below."
 article = "<p style='text-align: center'><a href='https://github.com/bryandlee/animegan2-pytorch' target='_blank'>Github Repo Pytorch</a></p> <center><img src='https://visitor-badge.glitch.me/badge?page_id=akhaliq_animegan' alt='visitor badge'></center></p>"
-examples=[['https://images.unsplash.com/photo-1543466835-00a7907e9de1','version 2 (🔺 robustness,🔻 stylization)'],['bill.png','version 1 (🔺 stylization, 🔻 robustness)'],['tony.png','version 1 (🔺 stylization, 🔻 robustness)'],['elon.png','version 2 (🔺 robustness,🔻 stylization)'],['IU.png','version 1 (🔺 stylization, 🔻 robustness)'],['billie.png','version 2 (🔺 robustness,🔻 stylization)'],['will.png','version 2 (🔺 robustness,🔻 stylization)'],['beyonce.png','version 1 (🔺 stylization, 🔻 robustness)'],['gongyoo.jpeg','version 1 (🔺 stylization, 🔻 robustness)']]
+examples=[['groot.jpeg','version 2 (🔺 robustness,🔻 stylization)'],['gongyoo.jpeg','version 1 (🔺 stylization, 🔻 robustness)']]
 
 # define the interface
 demo = gr.Interface(
