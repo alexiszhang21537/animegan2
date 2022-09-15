@@ -1,7 +1,7 @@
 
 ---
 title: animeganv2 
-emoji: 🤗
+emoji: 🔥
 colorFrom: indigo
 colorTo: indigo
 sdk: gradio
